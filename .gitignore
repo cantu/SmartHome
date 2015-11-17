@@ -1,0 +1,38 @@
+#add github to ingore files
+*.ini
+*.conf
+
+#https://github.com/github/gitignore/blob/master/CodeIgniter.gitignore
+#CodeIgniter.gitignore
+*/config/development
+*/logs/log-*.php
+!*/logs/index.html
+*/cache/*
+!*/cache/index.html
+!*/cache/.htaccess
+
+#
+*.apk
+
+#some data files
+data/shenfengzheng.sql
+*.db3
+*.db*
+
+
+
+#
+*.log
+
+
+*.swp
+
+*.pyc
+
+.idea/
+unused/
+
+/reference
+/vendor
+#composer usual generate composer.lock
+*.lock
