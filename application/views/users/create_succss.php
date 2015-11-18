@@ -1,0 +1,1 @@
+<h2><?php echo "Congratulation: you create user: ".$name; ?></h2>
